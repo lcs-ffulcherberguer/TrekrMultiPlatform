@@ -80,12 +80,7 @@ struct LocationDetail: View {
                 
             }
             
-            
-            
-            
-            
-            
-            
+    
         }
         
         .navigationTitle(location.name)
