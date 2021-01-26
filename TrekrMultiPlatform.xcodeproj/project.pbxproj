@@ -13,6 +13,10 @@
 		1CB80F2625BF5D75001545B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB80F1125BF5D70001545B3 /* ContentView.swift */; };
 		1CB80F2725BF5D75001545B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB80F1225BF5D74001545B3 /* Assets.xcassets */; };
 		1CB80F2825BF5D75001545B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB80F1225BF5D74001545B3 /* Assets.xcassets */; };
+		1CB80F3925BF61B0001545B3 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CB80F3725BF61B0001545B3 /* locations.json */; };
+		1CB80F3A25BF61B0001545B3 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CB80F3725BF61B0001545B3 /* locations.json */; };
+		1CB80F3B25BF61B0001545B3 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CB80F3825BF61B0001545B3 /* tips.json */; };
+		1CB80F3C25BF61B0001545B3 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CB80F3825BF61B0001545B3 /* tips.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,8 @@
 		1CB80F1F25BF5D75001545B3 /* TrekrMultiPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrekrMultiPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB80F2125BF5D75001545B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CB80F2225BF5D75001545B3 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		1CB80F3725BF61B0001545B3 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		1CB80F3825BF61B0001545B3 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,8 @@
 		1CB80F3425BF5E3A001545B3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1CB80F3725BF61B0001545B3 /* locations.json */,
+				1CB80F3825BF61B0001545B3 /* tips.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,7 +192,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CB80F3925BF61B0001545B3 /* locations.json in Resources */,
 				1CB80F2725BF5D75001545B3 /* Assets.xcassets in Resources */,
+				1CB80F3B25BF61B0001545B3 /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,7 +202,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CB80F3A25BF61B0001545B3 /* locations.json in Resources */,
 				1CB80F2825BF5D75001545B3 /* Assets.xcassets in Resources */,
+				1CB80F3C25BF61B0001545B3 /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
